@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SistemPeminjamanKD</string>
+    <string name="title_activity_daftarpinjaman">daftarpinjaman</string>
+    <string name="title_activity_daftarpermintaan">daftarpermintaan</string>
+    <string name="title_activity_daftar_kendaraan">daftarKendaraan</string>
+    <string name="title_activity_daftar_supir">daftarSupir</string>
+    <string name="title_activity_daftar_users">Daftar Users</string>
+    <string-array name="spinner_array">
+        <item> </item>
+        <item>Logout</item>
+
+
+    </string-array>
+    <string name="title_activity_plotkendaraan">plotkendaraan</string>
+</resources>

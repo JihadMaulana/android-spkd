@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.saspossible.sistempeminjamankd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".daftarpinjaman"
+            android:label="@string/title_activity_daftarpinjaman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FormRequest" />
+        <activity android:name=".Formpeminjaman" />
+        <activity android:name=".menuAdmin" />
+        <activity
+            android:name=".daftarpermintaan"
+            android:label="@string/title_activity_daftarpermintaan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".daftarKendaraan"
+            android:label="@string/title_activity_daftar_kendaraan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".daftarSupir"
+            android:label="@string/title_activity_daftar_supir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".daftarUsers"
+            android:label="@string/title_activity_daftar_users"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailPeminjaman" />
+        <activity android:name=".Detailpinjamuser" />
+        <activity android:name=".plot" />
+        <activity android:name=".DetailPeminjaman2" />
+        <activity
+            android:name=".plotkendaraan"
+            android:label="@string/title_activity_plotkendaraan"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

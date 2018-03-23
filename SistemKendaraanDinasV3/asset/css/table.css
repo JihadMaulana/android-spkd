@@ -1,0 +1,30 @@
+.close {
+    margin-top: 7px;
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #999999;
+    text-decoration: none;
+    cursor: pointer;
+}
+.table {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+
+.table tr th{
+    background: #3c8dbc;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}

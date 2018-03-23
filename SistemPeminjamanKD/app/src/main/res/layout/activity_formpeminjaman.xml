@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.saspossible.sistempeminjamankd.Formpeminjaman"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/formtujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tujuan" />
+
+    <EditText
+        android:id="@+id/formjmlkend"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Jumlah Kendaraan" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Tekan Field Untuk Input Tanggal dan jam Otomatis"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <EditText
+            android:id="@+id/tglpinjam"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Tanggal Peminjaman"
+            android:onClick="setDate"/>
+
+        <EditText
+            android:id="@+id/wktpinjam"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Waktu Peminjaman"
+            android:onClick="setDate"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hingga"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <EditText
+            android:id="@+id/tglpinjam2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Tanggal Peminjaman"
+            android:onClick="setDate2"/>
+
+        <EditText
+            android:id="@+id/wktpinjam2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Waktu Peminjaman"
+            android:onClick="setDate2"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="Keterangan"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+
+    <Button
+        android:textColor="#FFFF"
+        android:background="#507EA3"
+        android:text="Kirim"
+        android:layout_gravity="end"
+        android:id="@+id/bkirim"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

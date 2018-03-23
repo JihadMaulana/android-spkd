@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.saspossible.sistempeminjamankd.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logobi"/>
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistem Peminjaman Kendaraan Dinas"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:textColor="@android:color/black"
+        android:id="@+id/idlogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:textColor="#FFFF"
+            android:background="#507EA3"
+            android:layout_gravity="center"
+            android:id="@+id/btnlogin"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+    </LinearLayout>
+
+
+</LinearLayout>
